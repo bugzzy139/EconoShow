@@ -9,6 +9,7 @@
 
     <string name="back_button">Back</string>
     <string name="video_thumbnail">Video Thumbnail</string>
+    <string name="layout_thumbnail">Layout Thumbnail</string>
     <string name="no_videos">There are currently no videos for this machine.</string>
     <string name="no_brochure">There is currently no brochure for this machine.</string>
     <string name="no_layouts">There are currently no layouts for this machine.</string>

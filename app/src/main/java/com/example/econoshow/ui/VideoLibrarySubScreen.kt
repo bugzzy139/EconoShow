@@ -10,14 +10,18 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardColors
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -31,6 +35,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -168,22 +173,30 @@ fun VideoPopup(
             modifier = Modifier
                 .fillMaxSize()
         ) {
-//            Button(
-//                onClick = onClose,
+            Button(
+                onClick = onClose,
 //                colors = ButtonColors(
 //                    containerColor = Color.Transparent,
 //                    contentColor = Color.Transparent,
 //                    disabledContainerColor = Color.Transparent,
 //                    disabledContentColor = Color.Transparent,
 //                ),
-//                modifier = Modifier
-//                    .weight(1f)
-//                    .fillMaxWidth()
-//            ) { }
+                modifier = Modifier
+                    .weight(0.1f)
+                    .fillMaxWidth()
+            ) {
+                Icon(
+                    imageVector = Icons.Filled.ArrowBack,
+                    contentDescription = stringResource(R.string.back_button),
+                    modifier = Modifier
+                        .size(dimensionResource(R.dimen.top_bar_height)),
+                    tint = MaterialTheme.colorScheme.onPrimaryContainer
+                )
+            }
             Card (
                 colors = CardColors(
-                    containerColor = MaterialTheme.colorScheme.primaryContainer,
-                    contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
+                    containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
                     disabledContainerColor = MaterialTheme.colorScheme.errorContainer,
                     disabledContentColor = MaterialTheme.colorScheme.onErrorContainer,
                 )
@@ -191,6 +204,7 @@ fun VideoPopup(
                 VideoPlayer(
                     videoRes = videoRes,
                     modifier = Modifier
+                        .weight(2f)
                 )
             }
             Button(

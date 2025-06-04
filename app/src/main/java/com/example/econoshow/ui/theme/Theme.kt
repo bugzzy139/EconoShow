@@ -25,6 +25,8 @@ private val LightColorScheme = lightColorScheme(
     tertiary = theme_light_tertiary,
     primaryContainer = theme_light_primaryContainer,
     onPrimaryContainer = theme_light_onPrimaryContainer,
+    tertiaryContainer = theme_light_tertiaryContainer,
+    onTertiaryContainer = theme_light_onTertiaryContainer,
     background = theme_light_background,
     onBackground = theme_light_onBackground,
 

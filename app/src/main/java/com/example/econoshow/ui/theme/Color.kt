@@ -18,6 +18,8 @@ val theme_light_tertiary = Color(0xFF636569)
 
 val theme_light_primaryContainer = Color(0xFFFFCC00)
 val theme_light_onPrimaryContainer = Color(0xFF222222)
+val theme_light_tertiaryContainer = Color(0xFF636569)
+val theme_light_onTertiaryContainer = Color(0xFF222222)
 
 val theme_light_background = Color(0xFF222222)
 val theme_light_onBackground = Color(0xFFFFFFFF)

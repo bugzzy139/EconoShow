@@ -74,7 +74,11 @@ fun InformationScreen(
                 modifier = Modifier
                     .fillMaxSize()
             )
-            2 -> Text("O(∩_∩)O")
+            2 -> LayoutSubScreen(
+                machine = machine,
+                modifier = Modifier
+                    .fillMaxSize()
+            )
             else -> Text("Something went wrong ＞︿＜ \n Please restart the machine and try again.")
         }
     }
