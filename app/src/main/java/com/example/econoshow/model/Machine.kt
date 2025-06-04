@@ -8,4 +8,5 @@ data class Machine(
     @StringRes val name: Int,
     @RawRes val brochure: Int? = null,
     val videos: List<Video> = listOf(),
+    val layouts: List<Layout> = listOf(),
 )

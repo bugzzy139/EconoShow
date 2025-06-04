@@ -1,7 +1,9 @@
 package com.example.econoshow.data
 
+import androidx.compose.ui.layout.Layout
 import com.example.econoshow.model.MachineType
 import com.example.econoshow.R
+import com.example.econoshow.model.Layout
 import com.example.econoshow.model.Machine
 import com.example.econoshow.model.Video
 
@@ -55,6 +57,13 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_mini_mono_02_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_mini_mono_02
                     )
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_minimono_01,
+                        layoutRes = R.raw.layout_mini_mono_01,
+                    )
                 )
             ),
             Machine(
@@ -79,6 +88,23 @@ object LocalEconoShowDataProvider {
                         titleRes = R.string.video_title_twinseal_03,
                         videoRes = R.raw.youtube_twinseal_03_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_twinseal_03
+                    )
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_twinseal_01,
+                        layoutRes = R.raw.layout_twinseal_01
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_twinseal_02,
+                        layoutRes = R.raw.layout_twinseal_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_twinseal_03,
+                        layoutRes = R.raw.layout_twinseal_03,
                     )
                 )
             ),

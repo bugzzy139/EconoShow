@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="layout_title_default">Machine Layout</string>
+    <string name="layout_title_minimono_01">Mini Mono Model</string>
+    <string name="layout_title_twinseal_01">Twinseal 5FT Choke Fed Conveyor Rear Discharge - 11266</string>
+    <string name="layout_title_twinseal_02">Twinseal 10FT Choke Fed Conveyor Read Discharge - 11266</string>
+    <string name="layout_title_twinseal_03">Twinseal</string>
+</resources>
