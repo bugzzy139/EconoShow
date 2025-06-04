@@ -131,6 +131,43 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_e_2000_03_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_e_2000_03
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_e_2000_01,
+                        layoutRes = R.raw.layout_e_2000_01
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_e_2000_02,
+                        layoutRes = R.raw.layout_e_2000_02
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_e_2000_03,
+                        layoutRes = R.raw.layout_e_2000_03
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_e_2000_04,
+                        layoutRes = R.raw.layout_e_2000_04
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_e_2000_05,
+                        layoutRes = R.raw.layout_e_2000_05
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_e_2000_06,
+                        layoutRes = R.raw.layout_e_2000_06
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_e_2000_07,
+                        layoutRes = R.raw.layout_e_2000_07
+                    ),
                 )
             ),
             Machine(
