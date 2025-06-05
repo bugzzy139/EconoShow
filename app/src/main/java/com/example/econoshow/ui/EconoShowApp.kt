@@ -289,6 +289,7 @@ fun EconoShowApp(
                             2 -> LocalEconoShowDataProvider.getTrayformerMachineData()
                             3 -> LocalEconoShowDataProvider.getCasepackingMachineData()
                             4 -> LocalEconoShowDataProvider.getRoboticsMachineData()
+                            5 -> LocalEconoShowDataProvider.getBeverageMachineData()
                             else -> LocalEconoShowDataProvider.getCartonerMachineData()
                         },
                     onMachineButtonClicked = {

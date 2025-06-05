@@ -8,4 +8,6 @@
     <string name="machineType_03_subtitle">Pack your case, you\'re going to the big leagues!</string>
     <string name="machineType_04_title">Robotics</string>
     <string name="machineType_04_subtitle">I have come to steal American jobs</string>
+    <string name="machineType_05_title">Beverage</string>
+    <string name="machineType_05_subtitle">I don\'t have a drinking problem. I drink just fine!</string>
 </resources>

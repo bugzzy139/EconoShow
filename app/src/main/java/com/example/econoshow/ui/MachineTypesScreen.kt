@@ -27,10 +27,10 @@ fun MachineTypesScreen(
     Column (
       modifier = modifier
     ) {
-        Spacer(
-            modifier = Modifier
-                .height(dimensionResource(R.dimen.top_bar_height))
-        )
+//        Spacer(
+//            modifier = Modifier
+//                .height(dimensionResource(R.dimen.top_bar_height))
+//        )
         PulloutCardList(
             dataList = machineTypes,
             onClick = onMachineTypeButtonClicked,

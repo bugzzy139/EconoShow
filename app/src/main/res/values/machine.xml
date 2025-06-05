@@ -19,4 +19,8 @@
     <string name="machine_wrapAround_name">Wrap Around Spartan</string>
     <string name="machine_robot_palletizer">E-Pal Cobot Palletizer</string>
     <string name="machine_robot_case_packer">EC Pack</string>
+    <string name="machine_beverage_twinseal">Twinseal</string>
+    <string name="machine_beverage_e_2000">E-2000</string>
+    <string name="machine_beverage_spartan">Spartan</string>
+    <string name="machine_beverage_trayformer">Trayformer</string>
 </resources>

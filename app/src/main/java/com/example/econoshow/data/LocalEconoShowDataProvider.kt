@@ -1,10 +1,9 @@
 package com.example.econoshow.data
 
-import androidx.compose.ui.layout.Layout
-import com.example.econoshow.model.MachineType
 import com.example.econoshow.R
 import com.example.econoshow.model.Layout
 import com.example.econoshow.model.Machine
+import com.example.econoshow.model.MachineType
 import com.example.econoshow.model.Video
 
 object LocalEconoShowDataProvider {
@@ -31,6 +30,11 @@ object LocalEconoShowDataProvider {
                 id = 4,
                 titleResourceId = R.string.machineType_04_title,
                 subtitleResourceId = R.string.machineType_04_subtitle,
+            ),
+            MachineType(
+                id = 5,
+                titleResourceId = R.string.machineType_05_title,
+                subtitleResourceId = R.string.machineType_05_subtitle,
             )
         )
     }
@@ -868,6 +872,128 @@ object LocalEconoShowDataProvider {
             Machine(
                 id = 19,
                 name = R.string.machine_robot_case_packer,
+            )
+        )
+    }
+
+    fun getBeverageMachineData(): List<Machine> {
+        return listOf(
+            Machine(
+                id = 20,
+                name = R.string.machine_beverage_twinseal,
+                brochure = R.raw.brochure_beverage_twinseal,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_beverage_twinseal_01,
+                        layoutRes = R.raw.layout_beverage_twinseal_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_beverage_twinseal_02,
+                        layoutRes = R.raw.layout_beverage_twinseal_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_beverage_twinseal_03,
+                        layoutRes = R.raw.layout_beverage_twinseal_03,
+                    ),
+                )
+            ),
+            Machine(
+                id = 21,
+                name = R.string.machine_beverage_e_2000,
+                brochure = R.raw.brochure_beverage_e_system_2000,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_beverage_e_2000_01,
+                        layoutRes = R.raw.layout_beverage_e_2000_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_beverage_e_2000_02,
+                        layoutRes = R.raw.layout_beverage_e_2000_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_beverage_e_2000_03,
+                        layoutRes = R.raw.layout_beverage_e_2000_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_beverage_e_2000_04,
+                        layoutRes = R.raw.layout_beverage_e_2000_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_beverage_e_2000_05,
+                        layoutRes = R.raw.layout_beverage_e_2000_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_beverage_e_2000_06,
+                        layoutRes = R.raw.layout_beverage_e_2000_06,
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_beverage_e_2000_07,
+                        layoutRes = R.raw.layout_beverage_e_2000_07,
+                    ),
+                    Layout(
+                        id = 8,
+                        titleRes = R.string.layout_title_beverage_e_2000_08,
+                        layoutRes = R.raw.layout_beverage_e_2000_08,
+                    ),
+                    Layout(
+                        id = 9,
+                        titleRes = R.string.layout_title_beverage_e_2000_09,
+                        layoutRes = R.raw.layout_beverage_e_2000_09,
+                    ),
+                )
+            ),
+            Machine(
+                id = 22,
+                name = R.string.machine_beverage_spartan,
+                brochure = R.raw.brochure_beverage_spartan,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_beverage_spartan_01,
+                        layoutRes = R.raw.layout_beverage_spartan_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_beverage_spartan_02,
+                        layoutRes = R.raw.layout_beverage_spartan_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_beverage_spartan_03,
+                        layoutRes = R.raw.layout_beverage_spartan_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_beverage_spartan_04,
+                        layoutRes = R.raw.layout_beverage_spartan_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_beverage_spartan_05,
+                        layoutRes = R.raw.layout_beverage_spartan_05,
+                    ),
+                )
+            ),
+            Machine(
+                id = 23,
+                name = R.string.machine_beverage_trayformer,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_beverage_trayformer_01,
+                        layoutRes = R.raw.layout_beverage_trayformer_01
+                    )
+                )
             )
         )
     }
