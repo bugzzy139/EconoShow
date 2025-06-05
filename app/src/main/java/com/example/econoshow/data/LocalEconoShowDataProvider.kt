@@ -247,6 +247,73 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_robotics_01_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_robotics_01,
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_spartan_01,
+                        layoutRes = R.raw.layout_spartan_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_spartan_02,
+                        layoutRes = R.raw.layout_spartan_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_spartan_03,
+                        layoutRes = R.raw.layout_spartan_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_spartan_04,
+                        layoutRes = R.raw.layout_spartan_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_spartan_05,
+                        layoutRes = R.raw.layout_spartan_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_spartan_06,
+                        layoutRes = R.raw.layout_spartan_06,
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_spartan_07,
+                        layoutRes = R.raw.layout_spartan_07,
+                    ),
+                    Layout(
+                        id = 8,
+                        titleRes = R.string.layout_title_spartan_08,
+                        layoutRes = R.raw.layout_spartan_08,
+                    ),
+                    Layout(
+                        id = 9,
+                        titleRes = R.string.layout_title_spartan_09,
+                        layoutRes = R.raw.layout_spartan_09,
+                    ),
+                    Layout(
+                        id = 10,
+                        titleRes = R.string.layout_title_spartan_10,
+                        layoutRes = R.raw.layout_spartan_10,
+                    ),
+                    Layout(
+                        id = 11,
+                        titleRes = R.string.layout_title_spartan_11,
+                        layoutRes = R.raw.layout_spartan_11,
+                    ),
+                    Layout(
+                        id = 12,
+                        titleRes = R.string.layout_title_spartan_12,
+                        layoutRes = R.raw.layout_spartan_12,
+                    ),
+                    Layout(
+                        id = 13,
+                        titleRes = R.string.layout_title_spartan_13,
+                        layoutRes = R.raw.layout_spartan_13,
+                    ),
                 )
             ),
             Machine(
@@ -260,7 +327,7 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_spartan_plus_01_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_spartan_plus_01,
                     ),
-                )
+                ),
             ),
             Machine(
                 id = 6,
@@ -279,7 +346,14 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_spartan_m_pro_02_1920x1080_h264,
                         thumbnailRes = R.drawable.video_thumbnail_spartan_m_pro_02,
                     ),
-                )
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_spartan_m_pro_01,
+                        layoutRes = R.raw.layout_spartan_m_pro_01,
+                    ),
+                ),
             ),
             Machine(
                 id = 7,
@@ -298,6 +372,23 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_v_system_02_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_v_system_02,
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_v_system_01,
+                        layoutRes = R.raw.layout_v_system_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_v_system_02,
+                        layoutRes = R.raw.layout_v_system_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_v_system_03,
+                        layoutRes = R.raw.layout_v_system_03,
+                    ),
                 )
             ),
             Machine(
@@ -310,6 +401,33 @@ object LocalEconoShowDataProvider {
                         titleRes = R.string.video_title_econo_60_01,
                         videoRes = R.raw.youtube_econo_60_01_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_econo_60_01,
+                    ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_econo_60_01,
+                        layoutRes = R.raw.layout_econo_60_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_econo_60_02,
+                        layoutRes = R.raw.layout_econo_60_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_econo_60_03,
+                        layoutRes = R.raw.layout_econo_60_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_econo_60_04,
+                        layoutRes = R.raw.layout_econo_60_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_econo_60_05,
+                        layoutRes = R.raw.layout_econo_60_05,
                     ),
                 )
             ),
@@ -336,12 +454,66 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_pegasus_03_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_pegasus_03,
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_pegasus_01,
+                        layoutRes = R.raw.layout_pegasus_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_pegasus_02,
+                        layoutRes = R.raw.layout_pegasus_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_pegasus_03,
+                        layoutRes = R.raw.layout_pegasus_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_pegasus_04,
+                        layoutRes = R.raw.layout_pegasus_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_pegasus_05,
+                        layoutRes = R.raw.layout_pegasus_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_pegasus_06,
+                        layoutRes = R.raw.layout_pegasus_06,
+                    ),
                 )
             ),
             Machine(
                 id = 10,
                 name = R.string.machine_autoBottom_name,
                 brochure = R.raw.brochure_auto_bottom_erector,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_auto_bottom_erector_01,
+                        layoutRes = R.raw.layout_auto_bottom_erector_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_auto_bottom_erector_02,
+                        layoutRes = R.raw.layout_auto_bottom_erector_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_auto_bottom_erector_03,
+                        layoutRes = R.raw.layout_auto_bottom_erector_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_auto_bottom_erector_04,
+                        layoutRes = R.raw.layout_auto_bottom_erector_04,
+                    ),
+                )
             ),
             Machine(
                 id = 11,
@@ -359,6 +531,13 @@ object LocalEconoShowDataProvider {
                         titleRes = R.string.video_title_argo_02,
                         videoRes = R.raw.youtube_argo_02_1920x1080_h264,
                         thumbnailRes = R.drawable.video_thumbnail_argo_02
+                    ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_argo_01,
+                        layoutRes = R.raw.layout_argo_01,
                     )
                 )
             )
@@ -402,6 +581,48 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_trayformer_05_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_trayformer_05,
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_trayformer_01,
+                        layoutRes = R.raw.layout_trayformer_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_trayformer_02,
+                        layoutRes = R.raw.layout_trayformer_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_trayformer_03,
+                        layoutRes = R.raw.layout_trayformer_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_trayformer_04,
+                        layoutRes = R.raw.layout_trayformer_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_trayformer_05,
+                        layoutRes = R.raw.layout_trayformer_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_trayformer_06,
+                        layoutRes = R.raw.layout_trayformer_06,
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_trayformer_07,
+                        layoutRes = R.raw.layout_trayformer_07,
+                    ),
+                    Layout(
+                        id = 8,
+                        titleRes = R.string.layout_title_trayformer_08,
+                        layoutRes = R.raw.layout_trayformer_08,
+                    ),
                 )
             ),
             Machine(
@@ -415,7 +636,14 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_t_system_03_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_t_system_03
                     ),
-                )
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_reverse_triseal_01,
+                        layoutRes = R.raw.layout_reverse_triseal_01
+                    ),
+                ),
             ),
             Machine(
                 id = 14,
@@ -440,6 +668,43 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_t_system_03_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_t_system_03
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_t_system_01,
+                        layoutRes = R.raw.layout_t_system_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_t_system_02,
+                        layoutRes = R.raw.layout_t_system_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_t_system_03,
+                        layoutRes = R.raw.layout_t_system_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_t_system_04,
+                        layoutRes = R.raw.layout_t_system_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_t_system_05,
+                        layoutRes = R.raw.layout_t_system_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_t_system_06,
+                        layoutRes = R.raw.layout_t_system_06,
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_t_system_07,
+                        layoutRes = R.raw.layout_t_system_07,
+                    ),
                 )
             )
         )
@@ -451,6 +716,18 @@ object LocalEconoShowDataProvider {
                 id = 15,
                 name = R.string.machine_packer_name,
                 brochure = R.raw.brochure_econopacker,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_econopacker_01,
+                        layoutRes = R.raw.layout_econopacker_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_econopacker_02,
+                        layoutRes = R.raw.layout_econopacker_02,
+                    ),
+                )
             ),
             Machine(
                 id = 16,
@@ -493,6 +770,43 @@ object LocalEconoShowDataProvider {
                         videoRes = R.raw.youtube_caser_06_1280x720_h264,
                         thumbnailRes = R.drawable.video_thumbnail_caser_06,
                     ),
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_econocaser_01,
+                        layoutRes = R.raw.layout_econocaser_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_econocaser_02,
+                        layoutRes = R.raw.layout_econocaser_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_econocaser_03,
+                        layoutRes = R.raw.layout_econocaser_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_econocaser_04,
+                        layoutRes = R.raw.layout_econocaser_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_econocaser_05,
+                        layoutRes = R.raw.layout_econocaser_05,
+                    ),
+                    Layout(
+                        id = 6,
+                        titleRes = R.string.layout_title_econocaser_06,
+                        layoutRes = R.raw.layout_econocaser_06,
+                    ),
+                    Layout(
+                        id = 7,
+                        titleRes = R.string.layout_title_econocaser_07,
+                        layoutRes = R.raw.layout_econocaser_07,
+                    ),
                 )
             ),
             Machine(
@@ -523,6 +837,33 @@ object LocalEconoShowDataProvider {
                 id = 18,
                 name = R.string.machine_robot_palletizer,
                 brochure = R.raw.brochure_palletizer,
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_palletizer_01,
+                        layoutRes = R.raw.layout_palletizer_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_palletizer_02,
+                        layoutRes = R.raw.layout_palletizer_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_palletizer_03,
+                        layoutRes = R.raw.layout_palletizer_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_palletizer_04,
+                        layoutRes = R.raw.layout_palletizer_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_palletizer_05,
+                        layoutRes = R.raw.layout_palletizer_05,
+                    ),
+                )
             ),
             Machine(
                 id = 19,
