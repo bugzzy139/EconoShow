@@ -36,7 +36,7 @@ fun HomeScreen(
         modifier = modifier
     ) {
         VideoPlayer(
-            videoRes = R.raw.dummy01,
+            videoRes = R.raw.feature_collated,
             playWhenReady = true,
             loop = true,
             showControls = false,
@@ -48,8 +48,8 @@ fun HomeScreen(
         //Creates an infinite animation to bounce the padding value of the text up and down
         val infiniteTransition = rememberInfiniteTransition(label = "infinite")
         val paddingValue by infiniteTransition.animateValue(
-            initialValue = 0.dp,
-            targetValue = 20.dp,
+            initialValue = 400.dp,
+            targetValue = 420.dp,
             typeConverter = Dp.VectorConverter,
             animationSpec = infiniteRepeatable(
                 animation = tween(1000, easing = EaseInOut),
@@ -62,7 +62,7 @@ fun HomeScreen(
             text = stringResource(R.string.tap_to_start),
             style = MaterialTheme.typography.displayLarge,
             modifier = Modifier
-                .align(Alignment.Center)
+                .align(Alignment.BottomCenter)
                 .padding(bottom = paddingValue)
         )
         Button(

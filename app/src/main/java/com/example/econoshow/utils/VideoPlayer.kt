@@ -1,5 +1,6 @@
 package com.example.econoshow.utils
 
+import android.util.TypedValue
 import androidx.annotation.RawRes
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -37,8 +38,17 @@ fun VideoPlayer(
     //Initialize ExoPlayer
     val exoPlayer = ExoPlayer.Builder(context).build()
 
+    //Get file extension
+    var value = TypedValue()
+    context.resources.getValue(videoRes, value, true)
+    val resPath = value.string.toString()
+
+    val regex = Regex("[.]\\w{3}", RegexOption.IGNORE_CASE)
+    val matchResult = regex.find(resPath)
+    val extension = matchResult.toString()
+
     val uri = context.resources.openRawResource(videoRes)
-        .toFile(".mp4").toUri()
+        .toFile(extension).toUri()
 
     //Create a MediaSource
     val mediaSource = remember(uri) {

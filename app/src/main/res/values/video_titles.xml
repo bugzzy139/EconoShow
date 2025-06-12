@@ -38,6 +38,9 @@
     <string name="video_title_spartan_m_pro_02">Spartan M-Pro Cartoner</string>
     <string name="video_title_econo_60_01">Econocorp Econo-60 Continuous Motion Cartoner</string>
     <string name="video_title_robotics_01">Econocorp Spartan Cartoner Integrated with a Fanuc Robot</string>
+    <string name="video_title_robotics_sim_01">Robotic Simulation - V-System Perpendicular Conveyor Pick and Place</string>
+    <string name="video_title_robotics_sim_02">Robotic Simulation - Dual Lane Upstream Pick and Place</string>
+    <string name="video_title_robotics_sim_03">Robotic Simulation - Single Lane Upstream Pick and Place</string>
     <string name="video_title_spartan_01">Econocorp Spartan Cartoner Packaging Tubs of Ice Cream</string>
     <string name="video_title_spartan_02">Spartan Cartoner Packaging Trays of Muffins</string>
     <string name="video_title_spartan_03">Econocorp Spartan Cartoner Packaging Coffee Filters</string>

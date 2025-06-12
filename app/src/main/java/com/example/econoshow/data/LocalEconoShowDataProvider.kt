@@ -872,6 +872,54 @@ object LocalEconoShowDataProvider {
             Machine(
                 id = 19,
                 name = R.string.machine_robot_case_packer,
+            ),
+            Machine(
+                id = 20,
+                name = R.string.machine_robot_econobot,
+                videos = listOf(
+                    Video(
+                        id = 1,
+                        titleRes = R.string.video_title_robotics_sim_01,
+                        videoRes = R.raw.robotics_sim_01
+                    ),
+                    Video(
+                        id = 2,
+                        titleRes = R.string.video_title_robotics_sim_02,
+                        videoRes = R.raw.robotics_sim_02,
+                    ),
+                    Video(
+                        id = 3,
+                        titleRes = R.string.video_title_robotics_sim_03,
+                        videoRes = R.raw.robotics_sim_03
+                    )
+                ),
+                layouts = listOf(
+                    Layout(
+                        id = 1,
+                        titleRes = R.string.layout_title_robotic_01,
+                        layoutRes = R.raw.layout_robotic_01,
+                    ),
+                    Layout(
+                        id = 2,
+                        titleRes = R.string.layout_title_robotic_02,
+                        layoutRes = R.raw.layout_robotic_02,
+                    ),
+                    Layout(
+                        id = 3,
+                        titleRes = R.string.layout_title_robotic_03,
+                        layoutRes = R.raw.layout_robotic_03,
+                    ),
+                    Layout(
+                        id = 4,
+                        titleRes = R.string.layout_title_robotic_04,
+                        layoutRes = R.raw.layout_robotic_04,
+                    ),
+                    Layout(
+                        id = 5,
+                        titleRes = R.string.layout_title_robotic_05,
+                        layoutRes = R.raw.layout_robotic_05,
+                    ),
+                )
             )
         )
     }
@@ -879,7 +927,7 @@ object LocalEconoShowDataProvider {
     fun getBeverageMachineData(): List<Machine> {
         return listOf(
             Machine(
-                id = 20,
+                id = 21,
                 name = R.string.machine_beverage_twinseal,
                 brochure = R.raw.brochure_beverage_twinseal,
                 layouts = listOf(
@@ -901,7 +949,7 @@ object LocalEconoShowDataProvider {
                 )
             ),
             Machine(
-                id = 21,
+                id = 22,
                 name = R.string.machine_beverage_e_2000,
                 brochure = R.raw.brochure_beverage_e_system_2000,
                 layouts = listOf(
@@ -953,7 +1001,7 @@ object LocalEconoShowDataProvider {
                 )
             ),
             Machine(
-                id = 22,
+                id = 23,
                 name = R.string.machine_beverage_spartan,
                 brochure = R.raw.brochure_beverage_spartan,
                 layouts = listOf(
@@ -985,7 +1033,7 @@ object LocalEconoShowDataProvider {
                 )
             ),
             Machine(
-                id = 23,
+                id = 24,
                 name = R.string.machine_beverage_trayformer,
                 layouts = listOf(
                     Layout(
