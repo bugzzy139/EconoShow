@@ -1,0 +1,16 @@
+/* --- root styles --- */
+:root {
+    --dokka-logo-image-url: url('../images/logo-icon.png')
+    --dokka-logo-height: 50px;
+    --dokka-logo-width: 50px;
+    --active-section-color:  #eabc00 ;
+    --active-tab-border-color:  #eabc00 ;
+    --sidemenu-section-active-color:  #eabc00 ;
+}
+
+.library-name--link::before {
+    background-size: var(--dokka-logo-width)
+        var(--dokka-logo-height);
+    width: var(--dokka-logo-width);
+    height: var(--dokka-logo-height);
+}

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "EconoShow"
-include(":app")
+include(":EconoShow")
  

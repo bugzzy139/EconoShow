@@ -1,0 +1,117 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:econoshow.data////PointingToDeclaration/-econo-show/econoshow.data/index.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider///PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/index.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/defaultMachine/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/default-machine.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getBeverageMachineData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-beverage-machine-data.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getCartonerMachineData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-cartoner-machine-data.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getCasepackingMachineData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-casepacking-machine-data.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getMachineTypeData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-machine-type-data.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getRoboticsMachineData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-robotics-machine-data.html
+$dokka.location:econoshow.data/LocalEconoShowDataProvider/getTrayformerMachineData/#/PointingToDeclaration/-econo-show/econoshow.data/-local-econo-show-data-provider/get-trayformer-machine-data.html
+$dokka.location:econoshow.model////PointingToDeclaration/-econo-show/econoshow.model/index.html
+$dokka.location:econoshow.model/Layout///PointingToDeclaration/-econo-show/econoshow.model/-layout/index.html
+$dokka.location:econoshow.model/Layout/Layout/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-econo-show/econoshow.model/-layout/-layout.html
+$dokka.location:econoshow.model/Layout/id/#/PointingToDeclaration/-econo-show/econoshow.model/-layout/id.html
+$dokka.location:econoshow.model/Layout/layoutRes/#/PointingToDeclaration/-econo-show/econoshow.model/-layout/layout-res.html
+$dokka.location:econoshow.model/Layout/layoutThumbnailRes/#/PointingToDeclaration/-econo-show/econoshow.model/-layout/layout-thumbnail-res.html
+$dokka.location:econoshow.model/Layout/titleRes/#/PointingToDeclaration/-econo-show/econoshow.model/-layout/title-res.html
+$dokka.location:econoshow.model/Machine///PointingToDeclaration/-econo-show/econoshow.model/-machine/index.html
+$dokka.location:econoshow.model/Machine/Machine/#kotlin.Int#kotlin.Int#kotlin.Int?#kotlin.collections.List[econoshow.model.Video]#kotlin.collections.List[econoshow.model.Layout]/PointingToDeclaration/-econo-show/econoshow.model/-machine/-machine.html
+$dokka.location:econoshow.model/Machine/brochure/#/PointingToDeclaration/-econo-show/econoshow.model/-machine/brochure.html
+$dokka.location:econoshow.model/Machine/id/#/PointingToDeclaration/-econo-show/econoshow.model/-machine/id.html
+$dokka.location:econoshow.model/Machine/layouts/#/PointingToDeclaration/-econo-show/econoshow.model/-machine/layouts.html
+$dokka.location:econoshow.model/Machine/name/#/PointingToDeclaration/-econo-show/econoshow.model/-machine/name.html
+$dokka.location:econoshow.model/Machine/videos/#/PointingToDeclaration/-econo-show/econoshow.model/-machine/videos.html
+$dokka.location:econoshow.model/MachineType///PointingToDeclaration/-econo-show/econoshow.model/-machine-type/index.html
+$dokka.location:econoshow.model/MachineType/MachineType/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-econo-show/econoshow.model/-machine-type/-machine-type.html
+$dokka.location:econoshow.model/MachineType/id/#/PointingToDeclaration/-econo-show/econoshow.model/-machine-type/id.html
+$dokka.location:econoshow.model/MachineType/subtitleResourceId/#/PointingToDeclaration/-econo-show/econoshow.model/-machine-type/subtitle-resource-id.html
+$dokka.location:econoshow.model/MachineType/titleResourceId/#/PointingToDeclaration/-econo-show/econoshow.model/-machine-type/title-resource-id.html
+$dokka.location:econoshow.model/Video///PointingToDeclaration/-econo-show/econoshow.model/-video/index.html
+$dokka.location:econoshow.model/Video/Video/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-econo-show/econoshow.model/-video/-video.html
+$dokka.location:econoshow.model/Video/id/#/PointingToDeclaration/-econo-show/econoshow.model/-video/id.html
+$dokka.location:econoshow.model/Video/thumbnailRes/#/PointingToDeclaration/-econo-show/econoshow.model/-video/thumbnail-res.html
+$dokka.location:econoshow.model/Video/titleRes/#/PointingToDeclaration/-econo-show/econoshow.model/-video/title-res.html
+$dokka.location:econoshow.model/Video/videoRes/#/PointingToDeclaration/-econo-show/econoshow.model/-video/video-res.html
+$dokka.location:econoshow.ui.components////PointingToDeclaration/-econo-show/econoshow.ui.components/index.html
+$dokka.location:econoshow.ui.components//MissingContentMessage/#kotlin.Int#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui.components/-missing-content-message.html
+$dokka.location:econoshow.ui.components//PulloutCardList/#kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]#kotlin.Boolean#androidx.compose.ui.Modifier#androidx.compose.foundation.layout.PaddingValues/PointingToDeclaration/-econo-show/econoshow.ui.components/-pullout-card-list.html
+$dokka.location:econoshow.ui.theme////PointingToDeclaration/-econo-show/econoshow.ui.theme/index.html
+$dokka.location:econoshow.ui.theme//EconoShowTheme/#kotlin.Boolean#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-econo-show/econoshow.ui.theme/-econo-show-theme.html
+$dokka.location:econoshow.ui.theme//Pink40/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-pink40.html
+$dokka.location:econoshow.ui.theme//Pink80/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-pink80.html
+$dokka.location:econoshow.ui.theme//Purple40/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-purple40.html
+$dokka.location:econoshow.ui.theme//Purple80/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-purple80.html
+$dokka.location:econoshow.ui.theme//PurpleGrey40/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-purple-grey40.html
+$dokka.location:econoshow.ui.theme//PurpleGrey80/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-purple-grey80.html
+$dokka.location:econoshow.ui.theme//Raleway/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-raleway.html
+$dokka.location:econoshow.ui.theme//Shapes/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-shapes.html
+$dokka.location:econoshow.ui.theme//Typography/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/-typography.html
+$dokka.location:econoshow.ui.theme//theme_light_background/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_background.html
+$dokka.location:econoshow.ui.theme//theme_light_onBackground/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_on-background.html
+$dokka.location:econoshow.ui.theme//theme_light_onPrimary/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_on-primary.html
+$dokka.location:econoshow.ui.theme//theme_light_onPrimaryContainer/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_on-primary-container.html
+$dokka.location:econoshow.ui.theme//theme_light_onSecondary/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_on-secondary.html
+$dokka.location:econoshow.ui.theme//theme_light_onTertiaryContainer/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_on-tertiary-container.html
+$dokka.location:econoshow.ui.theme//theme_light_primary/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_primary.html
+$dokka.location:econoshow.ui.theme//theme_light_primaryContainer/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_primary-container.html
+$dokka.location:econoshow.ui.theme//theme_light_secondary/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_secondary.html
+$dokka.location:econoshow.ui.theme//theme_light_tertiary/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_tertiary.html
+$dokka.location:econoshow.ui.theme//theme_light_tertiaryContainer/#/PointingToDeclaration/-econo-show/econoshow.ui.theme/theme_light_tertiary-container.html
+$dokka.location:econoshow.ui////PointingToDeclaration/-econo-show/econoshow.ui/index.html
+$dokka.location:econoshow.ui//BrochureSubScreen/#[Error type: Unresolved type for Machine]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-brochure-sub-screen.html
+$dokka.location:econoshow.ui//EconoShowApp/#androidx.compose.material3.windowsizeclass.WindowWidthSizeClass#androidx.navigation.NavHostController#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-app.html
+$dokka.location:econoshow.ui//EconoShowAppBar/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]#econoshow.ui.EconoShowScreen#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-app-bar.html
+$dokka.location:econoshow.ui//HomeScreen/#kotlin.Function0[kotlin.Unit]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-home-screen.html
+$dokka.location:econoshow.ui//InformationScreen/#[Error type: Unresolved type for Machine]#kotlin.Int#kotlin.Function1[kotlin.Int,kotlin.Unit]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-information-screen.html
+$dokka.location:econoshow.ui//LayoutSubScreen/#[Error type: Unresolved type for Machine]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-layout-sub-screen.html
+$dokka.location:econoshow.ui//MachineTypesScreen/#kotlin.collections.List[[Error type: Unresolved type for MachineType]]#kotlin.Function1[[Error type: Unresolved type for MachineType],kotlin.Unit]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-machine-types-screen.html
+$dokka.location:econoshow.ui//MachinesScreen/#kotlin.collections.List[[Error type: Unresolved type for Machine]]#kotlin.Function1[[Error type: Unresolved type for Machine],kotlin.Unit]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-machines-screen.html
+$dokka.location:econoshow.ui//VideoLibrarySubScreen/#[Error type: Unresolved type for Machine]#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.ui/-video-library-sub-screen.html
+$dokka.location:econoshow.ui/EconoShowScreen.Home///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.ui/-econo-show-screen/-home/index.html
+$dokka.location:econoshow.ui/EconoShowScreen.Information///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.ui/-econo-show-screen/-information/index.html
+$dokka.location:econoshow.ui/EconoShowScreen.MachineTypes///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.ui/-econo-show-screen/-machine-types/index.html
+$dokka.location:econoshow.ui/EconoShowScreen.Machines///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.ui/-econo-show-screen/-machines/index.html
+$dokka.location:econoshow.ui/EconoShowScreen///PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-screen/index.html
+$dokka.location:econoshow.ui/EconoShowScreen/entries/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-screen/entries.html
+$dokka.location:econoshow.ui/EconoShowScreen/title/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-screen/title.html
+$dokka.location:econoshow.ui/EconoShowScreen/valueOf/#kotlin.String/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-screen/value-of.html
+$dokka.location:econoshow.ui/EconoShowScreen/values/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-screen/values.html
+$dokka.location:econoshow.ui/EconoShowUiState///PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/index.html
+$dokka.location:econoshow.ui/EconoShowUiState/EconoShowUiState/#[Error type: Unresolved type for MachineType]#[Error type: Unresolved type for Machine]#kotlin.Int#kotlinx.coroutines.Job?/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/-econo-show-ui-state.html
+$dokka.location:econoshow.ui/EconoShowUiState/afkTimer/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/afk-timer.html
+$dokka.location:econoshow.ui/EconoShowUiState/currentInformationSubScreenIndex/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/current-information-sub-screen-index.html
+$dokka.location:econoshow.ui/EconoShowUiState/currentMachine/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/current-machine.html
+$dokka.location:econoshow.ui/EconoShowUiState/currentMachineType/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-ui-state/current-machine-type.html
+$dokka.location:econoshow.ui/EconoShowViewModel///PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/index.html
+$dokka.location:econoshow.ui/EconoShowViewModel/EconoShowViewModel/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/-econo-show-view-model.html
+$dokka.location:econoshow.ui/EconoShowViewModel/setAfkTimerJob/#kotlinx.coroutines.Job/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/set-afk-timer-job.html
+$dokka.location:econoshow.ui/EconoShowViewModel/setCurrentInformationSubScreenIndex/#kotlin.Int/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/set-current-information-sub-screen-index.html
+$dokka.location:econoshow.ui/EconoShowViewModel/setMachine/#[Error type: Unresolved type for Machine]/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/set-machine.html
+$dokka.location:econoshow.ui/EconoShowViewModel/setMachineType/#[Error type: Unresolved type for MachineType]/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/set-machine-type.html
+$dokka.location:econoshow.ui/EconoShowViewModel/uiState/#/PointingToDeclaration/-econo-show/econoshow.ui/-econo-show-view-model/ui-state.html
+$dokka.location:econoshow.utils////PointingToDeclaration/-econo-show/econoshow.utils/index.html
+$dokka.location:econoshow.utils//HorizontalSampleA/#androidx.compose.ui.Modifier#com.pratikk.jetpdfvue.state.HorizontalVueReaderState#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-econo-show/econoshow.utils/-horizontal-sample-a.html
+$dokka.location:econoshow.utils//JetPdfVue/#kotlin.Int#android.content.Context#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.utils/-jet-pdf-vue.html
+$dokka.location:econoshow.utils//VideoPlayer/#kotlin.Int#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Int#androidx.compose.ui.Modifier/PointingToDeclaration/-econo-show/econoshow.utils/-video-player.html
+$dokka.location:econoshow.utils/AfkController///PointingToDeclaration/-econo-show/econoshow.utils/-afk-controller/index.html
+$dokka.location:econoshow.utils/AfkController/resetTimer/#/PointingToDeclaration/-econo-show/econoshow.utils/-afk-controller/reset-timer.html
+$dokka.location:econoshow.utils/AfkController/startTimer/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-econo-show/econoshow.utils/-afk-controller/start-timer.html
+$dokka.location:econoshow.utils/EconoShowContentType.LIST_AND_DETAIL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.utils/-econo-show-content-type/-l-i-s-t_-a-n-d_-d-e-t-a-i-l/index.html
+$dokka.location:econoshow.utils/EconoShowContentType.LIST_ONLY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-econo-show/econoshow.utils/-econo-show-content-type/-l-i-s-t_-o-n-l-y/index.html
+$dokka.location:econoshow.utils/EconoShowContentType///PointingToDeclaration/-econo-show/econoshow.utils/-econo-show-content-type/index.html
+$dokka.location:econoshow.utils/EconoShowContentType/entries/#/PointingToDeclaration/-econo-show/econoshow.utils/-econo-show-content-type/entries.html
+$dokka.location:econoshow.utils/EconoShowContentType/valueOf/#kotlin.String/PointingToDeclaration/-econo-show/econoshow.utils/-econo-show-content-type/value-of.html
+$dokka.location:econoshow.utils/EconoShowContentType/values/#/PointingToDeclaration/-econo-show/econoshow.utils/-econo-show-content-type/values.html
+$dokka.location:econoshow////PointingToDeclaration/-econo-show/econoshow/index.html
+$dokka.location:econoshow/MainActivity///PointingToDeclaration/-econo-show/econoshow/-main-activity/index.html
+$dokka.location:econoshow/MainActivity/MainActivity/#/PointingToDeclaration/-econo-show/econoshow/-main-activity/-main-activity.html
+$dokka.location:econoshow/MainActivity/onUserInteraction/#/PointingToDeclaration/-econo-show/econoshow/-main-activity/on-user-interaction.html
+econoshow
+econoshow.data
+econoshow.model
+econoshow.ui
+econoshow.ui.components
+econoshow.ui.theme
+econoshow.utils
